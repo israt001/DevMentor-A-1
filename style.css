@@ -1,0 +1,381 @@
+
+.azeret-mono-logo {
+  font-family: "Azeret Mono", "monospace";
+  font-optical-sizing: auto;
+  font-style: normal;
+  color: rgb(13, 19, 33);
+}
+
+/* basic title */
+.basic-title{
+    color: rgb(13, 19, 33);
+    font-size: 32px;
+    font-weight: 800;
+    text-align: center;
+    }
+
+.basic-para{
+    opacity: 0.7;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+    padding: 0 48px 20px;
+    }
+
+.section2-para{
+    padding: 30px 110px;
+}
+
+
+
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 30px 120px;
+    }
+
+.nav-logo{
+    font-weight: 800;
+    font-size: 28px;
+    color: #0D1321;
+    }
+
+.btn-primary{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 23px;
+    text-align: center;
+    }
+
+.btn-nav{
+    padding: 17px 24px;
+    border-radius: 8px;
+    opacity: 80%;
+    color: #0D1321;
+    box-sizing: border-box;
+    border: 1px solid rgb(13, 19, 33);
+    background-color:inherit;
+
+}
+
+
+.btn-nav:hover{
+    background-color:rgba(245, 245, 220, 0.849);
+    cursor: pointer;
+    
+}
+
+/* banner */
+.banner{
+    background-image: url(assets/Hero-bg.png);
+    padding: 50px 220px;
+}
+
+.laptop{
+    height: 240px;
+    width: 240px;
+    padding-top: 30px;
+}
+.banner-content{
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+}
+.banner-title{
+    font-family: "Azeret Mono";
+    font-weight: 800;
+    font-size: 48px;
+    text-align: center;
+}
+
+.banner-description{
+font-family: "Azeret Mono" ;
+font-size: 16px;
+font-weight: 400;
+text-align: center;
+}
+
+.ann{
+    opacity: 0.7;
+    text-align: center;
+}
+
+.contact-me{
+    color: rgb(255, 255, 255);
+    font-family: "Azeret Mono" ;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 23px;
+    background-color: #0D1321;
+    padding: 21px 24px;
+    border-radius: 8px;
+    border: none;
+    align-items: center;
+    margin-top: 20px;
+} 
+
+.contact-me:hover{
+    background-color: #0d1321a6;
+    cursor: pointer;
+}
+
+
+
+/* section-one */
+
+.section-1-para1{
+    padding: 48px;
+    border-radius: 16px;
+    background: linear-gradient(90.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 100%);
+}
+.para2{
+    border-radius: 16px;
+     background: linear-gradient(270.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 100%);
+    }
+
+
+.section-one{
+    margin: 75px 150px;
+    padding: 80px 97px;
+    border-radius: 16px;
+    background: rgba(13, 19, 33, 0.02);
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.section-1-para1{
+    display: flex;
+    gap: 90px;
+}
+
+.section1-headline{
+    color: rgba(13, 19, 33, 0.7);
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.section-1-description{
+opacity: 0.7;
+font-size: 16px;
+font-weight: 400;
+text-align: left;
+}
+
+.btn-learn-more{
+    color: rgb(13, 19, 33);
+    opacity: 0.7;
+    padding: 12px 20px;
+    font-family: Azeret Mono;
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+    border: 1px solid rgb(13, 19, 33, 0.7);
+    }
+
+    .btn-learn-more:hover{
+        background-color:rgba(238, 238, 190, 0.808);
+        cursor: pointer;
+        
+    }
+
+
+    /* section-two */
+
+    .section{
+        padding: 0 148px;
+    }
+
+    .whole-video{
+        padding: 32px;
+        box-sizing: border-box;
+        border: 1px solid rgba(13, 19, 33, 0.2);
+        border-radius: 16px;
+        
+    }
+    .video{
+        width: 100%;
+        height: 550px;
+        border-radius: 16px;
+    }
+
+
+
+
+/* section-three */
+.section3{
+    padding-top: 50px;
+}
+
+.section3-full-box{
+    display: flex;
+    gap: 24px;
+}
+
+.section3-box1{
+    padding: 40px;
+    width: 360px;
+}
+
+.html-headline{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 24px;
+    font-weight: 800;
+}
+
+.html-des{
+    color: rgb(13, 19, 33, 0.7);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.learn-more{
+    color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 16px;
+font-weight: 700;
+}
+
+.html-box{
+    border-radius: 16px;
+    background: rgba(255, 76, 30, 0.05);
+}
+
+.css-box{
+    border-radius: 16px;
+    background: rgba(0, 76, 232, 0.05);
+}
+
+.js-box{
+    border-radius: 16px;
+    background: rgba(255, 221, 0, 0.096);
+}
+
+
+
+/* section 4 */
+
+.section4{
+    padding-top: 100px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.section4-box1{
+    display: flex;
+    padding: 40px;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    border-radius: 16px;
+    background: rgb(255, 255, 255); 
+    gap: 45px;
+    align-items: center;
+}
+
+
+.image1-for-section4{
+    width: 94.78px;
+    height: 84.41px;
+}
+.image2-for-section4{
+    width: 95px;
+    height: 70px;
+}
+.image3-for-section4{
+    width: 95px;
+height: 110px
+}
+
+
+
+
+/* footer */
+.footer-banner{
+    padding: 80px 150px;
+}
+
+
+
+.footer-banner1{
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.95), rgba(0, 0, 0, 0)), url(assets/handshake.jpg);
+    border-radius: 16px;
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;
+    padding: 64px;
+}
+.suggest-me{
+    padding: 24px;
+    outline: none;
+    border-radius: 8px;
+    width: 548px;
+    height: 16px;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    background: rgb(255, 255, 255);
+}
+
+.colors{
+color: #ffffff;
+padding: 0 150px;
+}
+
+.i-need-support{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+    padding: 24px;
+}
+
+.submit{
+    color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 20px;
+font-weight: 600;
+text-align: center;
+border-radius: 8px;
+padding: 20px;
+border: 1px solid rgba(13, 19, 33, 0.15);
+background: rgb(255, 255, 255);
+}
+
+
+input::placeholder {
+    color: rgba(13, 19, 33, 0.4);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: left;
+}
+
+footer{
+    padding: 40px 160px;
+    background: rgba(13, 19, 33, 0.03);
+}
+
+.footer{
+    display: flex;
+    justify-content: space-between;    
+}
+
+
+.footer-icon{
+    display: flex;
+    gap: 24px;
+}
+
+
+
+
+
+/* Show the section when it's targeted */
+#specific-section:target {
+    display:block;
+}
