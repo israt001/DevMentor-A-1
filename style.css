@@ -349,7 +349,8 @@
 
     .footer{
         display: flex;
-        justify-content: space-between;    
+        justify-content: space-between; 
+        font-weight: 700;   
     }
 
     .footer-icon{
