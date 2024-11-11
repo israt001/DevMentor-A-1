@@ -42,80 +42,67 @@ nav{
     color: #0D1321;
     }
 
-.btn-primary{
-    color: rgb(13, 19, 33);
-    font-family: Azeret Mono;
-    font-size: 20px;
-    font-weight: 600;
-    line-height: 23px;
-    text-align: center;
-    }
 
 .btn-nav{
     padding: 17px 24px;
     border-radius: 8px;
-    opacity: 80%;
-    color: #0D1321;
-    box-sizing: border-box;
+    color: rgb(13, 19, 33, 0.8);
     border: 1px solid rgb(13, 19, 33);
     background-color:inherit;
-
+    font-family: Azeret Mono;
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
 }
 
 
 .btn-nav:hover{
     background-color:rgba(245, 245, 220, 0.849);
-    cursor: pointer;
-    
+    cursor: pointer;   
 }
 
-/* banner */
-.banner{
+/* hero-section */
+.hero-section{
     background-image: url(assets/Hero-bg.png);
     padding: 50px 220px;
 }
 
-.laptop{
+.hero-image{
     height: 240px;
     width: 240px;
     padding-top: 30px;
 }
-.banner-content{
+.hero-section-content{
     display: flex;
     flex-direction: column;
     justify-items: center;
     align-items: center;
 }
-.banner-title{
+.hero-quote{
     font-family: "Azeret Mono";
     font-weight: 800;
     font-size: 48px;
     text-align: center;
 }
 
-.banner-description{
+.hero-description{
 font-family: "Azeret Mono" ;
 font-size: 16px;
 font-weight: 400;
 text-align: center;
+opacity: 0.7;
+text-align: center;
 }
 
-.ann{
-    opacity: 0.7;
-    text-align: center;
-}
-
-.contact-me{
+.hero-contact-btn{
     color: rgb(255, 255, 255);
-    font-family: "Azeret Mono" ;
+    font-family: Azeret Mono ;
     font-size: 20px;
     font-weight: 600;
-    line-height: 23px;
     background-color: #0D1321;
     padding: 21px 24px;
     border-radius: 8px;
     border: none;
-    align-items: center;
     margin-top: 20px;
 } 
 
@@ -128,18 +115,19 @@ text-align: center;
 
 /* section-one */
 
-.section-1-para1{
+.webdev-content-box{
     padding: 48px;
     border-radius: 16px;
     background: linear-gradient(90.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 100%);
+    display: flex;
+    gap: 90px;
 }
 .para2{
-    border-radius: 16px;
      background: linear-gradient(270.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 100%);
     }
 
 
-.section-one{
+.webdev-section{
     margin: 75px 150px;
     padding: 80px 97px;
     border-radius: 16px;
@@ -149,36 +137,35 @@ text-align: center;
     gap: 32px;
 }
 
-.section-1-para1{
-    display: flex;
-    gap: 90px;
-}
 
-.section1-headline{
+.webdev-title{
     color: rgba(13, 19, 33, 0.7);
     font-size: 24px;
     font-weight: 700;
 }
 
-.section-1-description{
+.webdev-box-title{
+    color: rgba(13, 19, 33, 0.7);
+    font-size: 22px;
+    font-weight: 700;
+    }
+
+.webdev-box-description{
 opacity: 0.7;
 font-size: 16px;
 font-weight: 400;
-text-align: left;
 }
 
-.btn-learn-more{
-    color: rgb(13, 19, 33);
+.webdev-learn-more{
     opacity: 0.7;
     padding: 12px 20px;
     font-family: Azeret Mono;
     font-size: 20px;
     font-weight: 600;
-    text-align: center;
     border: 1px solid rgb(13, 19, 33, 0.7);
     }
 
-    .btn-learn-more:hover{
+    .webdev-learn-more:hover{
         background-color:rgba(238, 238, 190, 0.808);
         cursor: pointer;
         
@@ -191,14 +178,13 @@ text-align: left;
         padding: 0 148px;
     }
 
-    .whole-video{
+    .inspiration-video-border{
         padding: 32px;
-        box-sizing: border-box;
         border: 1px solid rgba(13, 19, 33, 0.2);
         border-radius: 16px;
         
     }
-    .video{
+    .inspiration-video-inside{
         width: 100%;
         height: 550px;
         border-radius: 16px;
@@ -212,31 +198,31 @@ text-align: left;
     padding-top: 50px;
 }
 
-.section3-full-box{
+.target-full-box{
     display: flex;
     gap: 24px;
 }
 
-.section3-box1{
+.target-box{
     padding: 40px;
     width: 360px;
 }
 
-.html-headline{
+.target-box-title{
     color: rgb(13, 19, 33);
     font-family: Azeret Mono;
     font-size: 24px;
     font-weight: 800;
 }
 
-.html-des{
+.target-description{
     color: rgb(13, 19, 33, 0.7);
     font-family: Azeret Mono;
     font-size: 16px;
     font-weight: 400;
 }
 
-.learn-more{
+.target-learn-more{
     color: rgb(13, 19, 33);
 font-family: Azeret Mono;
 font-size: 16px;
@@ -269,7 +255,7 @@ font-weight: 700;
     gap: 24px;
 }
 
-.section4-box1{
+.next-target-box{
     display: flex;
     padding: 40px;
     border: 1px solid rgba(13, 19, 33, 0.15);
@@ -297,13 +283,13 @@ height: 110px
 
 
 /* footer */
-.footer-banner{
+.support-section{
     padding: 80px 150px;
 }
 
 
 
-.footer-banner1{
+.support-banner1{
     background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.95), rgba(0, 0, 0, 0)), url(assets/handshake.jpg);
     border-radius: 16px;
     background-repeat: no-repeat;
@@ -311,7 +297,7 @@ height: 110px
     background-position: center;
     padding: 64px;
 }
-.suggest-me{
+.support-feedback-input{
     padding: 24px;
     outline: none;
     border-radius: 8px;
@@ -334,7 +320,7 @@ padding: 0 150px;
     padding: 24px;
 }
 
-.submit{
+.support-submit-btn{
     color: rgb(13, 19, 33);
 font-family: Azeret Mono;
 font-size: 20px;
@@ -376,6 +362,6 @@ footer{
 
 
 /* Show the section when it's targeted */
-#specific-section:target {
+#support-banner:target {
     display:block;
 }
